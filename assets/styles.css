@@ -28,9 +28,16 @@ main .card {
   text-align: center;
   margin-bottom: 10px;
   border-radius: 2rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+main .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
 }
 main .tags {
   display: flex;
+  justify-content: space-around;
 }
 main .tags p {
   font-size: 20px;
@@ -39,13 +46,11 @@ main .tags p {
   height: 25px;
 }
 main .tags .one {
-  margin-left: 20px;
   border-radius: 8px;
   background-color: rgb(228, 0, 14);
   align-content: center;
 }
 main .tags .two {
-  margin-left: 20px;
   border-radius: 8px;
   background-color: rgb(14, 162, 114);
   align-content: center;

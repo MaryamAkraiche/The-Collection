@@ -81,7 +81,7 @@ function createPlayerCard(player) {
             <img src=${player.picture}>
             <section class="tags">
                 <p class="one">N ${player.number}</p>
-                <p class="two">${player.position}</p>
+                <p class="two"><span style="text-transform: capitalize;">${player.position}</span> </p>
             </section>
             <h1>${player.name}</h1>
             <p>
