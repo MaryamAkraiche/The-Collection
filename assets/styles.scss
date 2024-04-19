@@ -3,14 +3,16 @@
 
 header {
     display: flex;
-
+    justify-content: center;
+    
     img{
         max-height: 200px;
         max-width: 200px;
     }
 
     section {
-        margin-left: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 }
 
@@ -38,7 +40,7 @@ align-items: center;
         transform: scale(1.05); 
         box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
     }
-    
+
     .tags{
         display: flex;
         justify-content: space-around;
@@ -73,4 +75,3 @@ align-items: center;
     }
     
 }
-
